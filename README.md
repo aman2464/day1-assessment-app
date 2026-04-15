@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🎓 Student Management System - Day 1 MERN Stack Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 Project Description
+[cite_start]This project was developed as part of the **MERN Stack & React JS Foundations** training[cite: 1, 2]. [cite_start]I am currently working as a **Frontend Developer Intern** at **CodeCraze Academy**, an EdTech platform[cite: 4]. 
 
-## Available Scripts
+[cite_start]The goal of this assignment was to build a basic **Student Management System UI** that allows admins and instructors to add, view, and manage student details dynamically to track enrollments efficiently[cite: 5, 7].
 
-In the project directory, you can run:
+## 🚀 Key Features & Concepts Applied
+[cite_start]This application demonstrates the following **Day 1 React and JavaScript** fundamentals[cite: 9, 13]:
 
-### `npm start`
+### 1. JavaScript & TypeScript Basics
+* [cite_start]**Variables & Data Types**: Storing learner details using `let` and `const`[cite: 14].
+* [cite_start]**Functions**: Implementation of student registration using **Arrow Functions**[cite: 14].
+* [cite_start]**Array Methods**: Using `.map()` for dynamic list rendering [cite: 14, 26] [cite_start]and `.filter()` for the search/filtering logic[cite: 15, 31].
+* [cite_start]**ES6 Features**: Using the **Spread Operator** for immutable state updates[cite: 15].
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. React Fundamentals
+* [cite_start]**Component Architecture**: Modular structure including `LearnerEnrollmentForm` and `LearnerDisplay` components[cite: 42, 44, 45].
+* [cite_start]**State & Props**: Managing dynamic data with `useState` and passing data between components via `props`[cite: 12].
+* [cite_start]**Event Handling**: Handling form submissions and button clicks (`onClick`, `onChange`)[cite: 15, 33].
+* [cite_start]**Controlled Inputs**: Capturing and validating form data (Name, Age, Course)[cite: 15, 17, 19, 23].
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Async Logic
+* [cite_start]**Promises & Async/Await**: Simulating a real-world API response using a `setTimeout` within a Promise[cite: 15, 36, 37, 41].
 
-### `npm test`
+## 🛠️ Setup Instructions
+[cite_start]To run this project locally, follow these steps[cite: 46]:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Install Dependencies**:
+   ```bash
+   npx create-react-app day1-assessment-app --template typescript
+   cd day1-assessment-app
+   Start the Application:
 
-### `npm run build`
+2.Bash
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app will be available at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+src/components/LearnerEnrollmentForm.tsx: Handles the input fields for Name, Age, and Course.
++1
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/components/LearnerDisplay.tsx: Displays the list of students dynamically.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+src/App.tsx: The main container managing the global state and filtering logic.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📤 GitHub Submission
+Follow these commands to push the project to your repository:
 
-## Learn More
+Create a repository named: day1-student-management-app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the following in your terminal:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bash
+git init
+git add .
+git commit -m "Day 1 React Assignment"
+git branch -M main
+git remote add origin <your-repo-link>
+git push -u origin main
+⚖️ Anti-Plagiarism & Modifications
+To ensure originality, I have implemented the following variations:
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Unique Naming: Used learnerRecords and registerLearner instead of generic names.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Custom Logic: Modified the filter condition to Age >= 20.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Bonus Features: Added empty input validation and a delete functionality.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Evaluation Criteria: Functionality (30%),
+Concept Usage (25%),
+React Implementation (20%),
+Code Quality (15%), 
+Originality (10%).
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+OUTPUT SCREENSHOT LINK
+https://uploadnow.io/files/JDjNlKx
