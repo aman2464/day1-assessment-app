@@ -19,7 +19,8 @@ function App() {
   const registerLearner = (newLearner) => {
     // Requirement: ES6 Spread operator to update state 
     setLearnerRecords([...learnerRecords, newLearner]);
-    setCounter(counter + 1); 
+    setCounter(counter + 1); // Event Handling: Button click counter [cite: 34]
+  };
 
   
   const adultLearners = learnerRecords.filter(learner => learner.age >= 20);
@@ -49,4 +50,4 @@ function App() {
   );
 }
 
-export default App;}
+export default App;
