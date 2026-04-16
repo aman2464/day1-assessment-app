@@ -85,3 +85,6 @@ Originality (10%).
 
 OUTPUT SCREENSHOT LINK
 https://uploadnow.io/files/JDjNlKx
+
+VERCEL OUTPUT LINK
+https://day1-assessment-app.vercel.app
